@@ -86,3 +86,19 @@
 #endif
 
 #endif /* ifndef DEMO_CONFIG_H */
+
+#ifndef ROOT_CA_CERT_PATH
+    #define ROOT_CA_CERT_PATH    "certificates/AmazonRootCA1.pem"
+#endif
+
+#ifndef CLIENT_CERT_PATH
+    #define CLIENT_CERT_PATH    "certificates/device.pem.crt"
+#endif
+
+#ifndef CLIENT_PRIVATE_KEY_PATH
+    #define CLIENT_PRIVATE_KEY_PATH    "certificates/private.pem.key"
+#endif
+
+#ifndef AWS_IOT_ENDPOINT
+    #define AWS_IOT_ENDPOINT "a300cq358hzj92-ats.iot.us-east-1.amazonaws.com"
+#endif
