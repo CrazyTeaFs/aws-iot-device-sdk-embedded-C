@@ -85,7 +85,7 @@
     #define CLIENT_IDENTIFIER    "testclient"
 #endif
 
-#endif /* ifndef DEMO_CONFIG_H */
+
 
 #ifndef ROOT_CA_CERT_PATH
     #define ROOT_CA_CERT_PATH    "certificates/AmazonRootCA1.pem"
@@ -105,3 +105,5 @@
 #ifndef BROKER_ENDPOINT
     #define BROKER_ENDPOINT               "localhost"
 #endif
+
+#endif /* ifndef DEMO_CONFIG_H */
