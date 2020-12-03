@@ -120,7 +120,7 @@
     #define AWS_IOT_ENDPOINT "a300cq358hzj92-ats.iot.us-east-1.amazonaws.com"
 #endif
 #ifndef BROKER_ENDPOINT
-    #define BROKER_ENDPOINT               "localhost"
+    #define BROKER_ENDPOINT               "a300cq358hzj92-ats.iot.us-east-1.amazonaws.com"
 #endif
 
 

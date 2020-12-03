@@ -60,7 +60,7 @@
  *
  * #define BROKER_ENDPOINT               "...insert here..."
  */
-#define BROKER_ENDPOINT               "localhost"
+#define BROKER_ENDPOINT               "a300cq358hzj92-ats.iot.us-east-1.amazonaws.com"
 
 /**
  * @brief MQTT server port number.
