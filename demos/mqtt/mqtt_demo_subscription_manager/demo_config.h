@@ -100,4 +100,28 @@
  */
 #define MAX_SUBSCRIPTION_CALLBACK_RECORDS    5
 
+#ifndef CLIENT_IDENTIFIER
+    #define CLIENT_IDENTIFIER    "testclient"
+#endif
+
+#ifndef ROOT_CA_CERT_PATH
+    #define ROOT_CA_CERT_PATH    "/home/ubuntu/myawsiot/aws-iot-device-sdk-embedded-C/demos/certificates/AmazonRootCA1.pem"
+#endif
+
+#ifndef CLIENT_CERT_PATH
+    #define CLIENT_CERT_PATH    "/home/ubuntu/myawsiot/aws-iot-device-sdk-embedded-C/demos/certificates/device.pem.crt"
+#endif
+
+#ifndef CLIENT_PRIVATE_KEY_PATH
+    #define CLIENT_PRIVATE_KEY_PATH    "/home/ubuntu/myawsiot/aws-iot-device-sdk-embedded-C/demos/certificates/private.pem.key"
+#endif
+
+#ifndef AWS_IOT_ENDPOINT
+    #define AWS_IOT_ENDPOINT "a300cq358hzj92-ats.iot.us-east-1.amazonaws.com"
+#endif
+#ifndef BROKER_ENDPOINT
+    #define BROKER_ENDPOINT               "localhost"
+#endif
+
+
 #endif /* ifndef DEMO_CONFIG_H */
