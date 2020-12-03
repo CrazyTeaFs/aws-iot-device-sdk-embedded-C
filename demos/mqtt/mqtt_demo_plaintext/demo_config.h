@@ -60,6 +60,7 @@
  *
  * #define BROKER_ENDPOINT               "...insert here..."
  */
+#define BROKER_ENDPOINT               "localhost"
 
 /**
  * @brief MQTT server port number.
