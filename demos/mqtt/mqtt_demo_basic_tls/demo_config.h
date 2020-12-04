@@ -88,15 +88,15 @@
 
 
 #ifndef ROOT_CA_CERT_PATH
-    #define ROOT_CA_CERT_PATH    "/home/ubuntu/myawsiot/aws-iot-device-sdk-embedded-C/demos/certificates/AmazonRootCA1.pem"
+    #define ROOT_CA_CERT_PATH    "/home/ubuntu/myawsiot/aws-iot-device-sdk-embedded-C/demos/certificates/root-CA.crtm"
 #endif
 
 #ifndef CLIENT_CERT_PATH
-    #define CLIENT_CERT_PATH    "/home/ubuntu/myawsiot/aws-iot-device-sdk-embedded-C/demos/certificates/device.pem.crt"
+    #define CLIENT_CERT_PATH    "/home/ubuntu/myawsiot/aws-iot-device-sdk-embedded-C/demos/certificates/demo.cert.pem"
 #endif
 
 #ifndef CLIENT_PRIVATE_KEY_PATH
-    #define CLIENT_PRIVATE_KEY_PATH    "/home/ubuntu/myawsiot/aws-iot-device-sdk-embedded-C/demos/certificates/private.pem.key"
+    #define CLIENT_PRIVATE_KEY_PATH    "/home/ubuntu/myawsiot/aws-iot-device-sdk-embedded-C/demos/certificates/demo.private.key"
 #endif
 
 #ifndef AWS_IOT_ENDPOINT

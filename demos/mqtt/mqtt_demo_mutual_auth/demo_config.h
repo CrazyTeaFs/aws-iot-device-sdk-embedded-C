@@ -86,7 +86,7 @@
  * ROOT_CA_CERT_PATH to the absolute path if this demo is executed from elsewhere.
  */
 #ifndef ROOT_CA_CERT_PATH
-    #define ROOT_CA_CERT_PATH    "certificates/AmazonRootCA1.pem"
+    #define ROOT_CA_CERT_PATH    "/home/ubuntu/myawsiot/aws-iot-device-sdk-embedded-C/demos/certificates/root-CA.crt"
 #endif
 
 /**
@@ -100,7 +100,7 @@
  *
  * #define CLIENT_CERT_PATH    "...insert here..."
  */
-#define CLIENT_CERT_PATH    "certificates/device.pem.crt"
+#define CLIENT_CERT_PATH    "/home/ubuntu/myawsiot/aws-iot-device-sdk-embedded-C/demos/certificates/demo.cert.pem"
 
 /**
  * @brief Path of the file containing the client's private key.
@@ -113,7 +113,7 @@
  *
  * #define CLIENT_PRIVATE_KEY_PATH    "...insert here..."
  */
-#define CLIENT_PRIVATE_KEY_PATH    "certificates/private.pem.key"
+#define CLIENT_PRIVATE_KEY_PATH    "/home/ubuntu/myawsiot/aws-iot-device-sdk-embedded-C/demos/certificates/demo.private.key"
 
 /**
  * @brief The username value for authenticating client to MQTT broker when
